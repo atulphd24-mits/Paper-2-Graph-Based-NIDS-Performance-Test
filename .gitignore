@@ -1,5 +1,6 @@
 # --- files over GitHub's 100 MB limit (kept locally, not pushed) -----
-outputs/paper2_final/v1_baseline/bigflow_working_sample.parquet
+*.parquet
+*.zip
 
 # --- environments and caches -----------------------------------------
 .venv/
