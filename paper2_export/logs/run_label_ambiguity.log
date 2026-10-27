@@ -1,0 +1,116 @@
+[    5s] hashed merged_part_0.parquet
+[   12s] hashed merged_part_1.parquet
+[   18s] hashed merged_part_2.parquet
+[   25s] hashed merged_part_3.parquet
+[   35s] hashed merged_part_4.parquet
+[   42s] hashed merged_part_5.parquet
+[   48s] hashed merged_part_6.parquet
+[   55s] hashed merged_part_7.parquet
+[   60s] hashed merged_part_8.parquet
+[   68s] hashed merged_part_9.parquet
+[   77s] hashed merged_part_10.parquet
+[   83s] hashed merged_part_11.parquet
+[   89s] hashed merged_part_12.parquet
+[   96s] hashed merged_part_13.parquet
+[  102s] hashed merged_part_14.parquet
+[  111s] hashed merged_part_15.parquet
+[  120s] hashed merged_part_16.parquet
+[  125s] hashed merged_part_17.parquet
+[  132s] hashed merged_part_18.parquet
+[  138s] hashed merged_part_19.parquet
+[  146s] hashed merged_part_20.parquet
+[  155s] hashed merged_part_21.parquet
+[  162s] hashed merged_part_22.parquet
+[  168s] hashed merged_part_23.parquet
+[  175s] hashed merged_part_24.parquet
+[  180s] hashed merged_part_25.parquet
+[  189s] hashed merged_part_26.parquet
+[  198s] hashed merged_part_27.parquet
+[  203s] hashed merged_part_28.parquet
+[  210s] hashed merged_part_29.parquet
+[  216s] hashed merged_part_30.parquet
+[  222s] hashed merged_part_31.parquet
+[  232s] hashed merged_part_32.parquet
+[  239s] hashed merged_part_33.parquet
+[  245s] hashed merged_part_34.parquet
+[  252s] hashed merged_part_35.parquet
+[  258s] hashed merged_part_36.parquet
+[  266s] hashed merged_part_37.parquet
+[  275s] hashed merged_part_38.parquet
+[  281s] hashed merged_part_39.parquet
+[  287s] hashed merged_part_40.parquet
+[  294s] hashed merged_part_41.parquet
+[  300s] hashed merged_part_42.parquet
+[  310s] hashed merged_part_43.parquet
+[  318s] hashed merged_part_44.parquet
+[  324s] hashed merged_part_45.parquet
+[  331s] hashed merged_part_46.parquet
+[  337s] hashed merged_part_47.parquet
+[  345s] hashed merged_part_48.parquet
+[  355s] hashed merged_part_49.parquet
+[  362s] hashed merged_part_50.parquet
+[  369s] hashed merged_part_51.parquet
+[  376s] hashed merged_part_52.parquet
+[  382s] hashed merged_part_53.parquet
+[  391s] hashed merged_part_54.parquet
+[  400s] hashed merged_part_55.parquet
+[  406s] hashed merged_part_56.parquet
+[  413s] hashed merged_part_57.parquet
+[  419s] hashed merged_part_58.parquet
+[  426s] hashed merged_part_59.parquet
+[  436s] hashed merged_part_60.parquet
+[  443s] hashed merged_part_61.parquet
+[  449s] hashed merged_part_62.parquet
+[  455s] hashed merged_part_63.parquet
+[  461s] hashed merged_part_64.parquet
+[  470s] hashed merged_part_65.parquet
+[  479s] hashed merged_part_66.parquet
+Behaviour columns: 47 | flows: 66,935,021
+
+PER SOURCE
+          source    flows  attack_share  distinct_vectors  irreducible_error  attack_flows_in_ambiguous_vectors
+        BoT-IoT 16933808        0.9969           1556305             0.0014                             0.0224
+CSE-CIC-IDS2018 20115529        0.1293           9057473             0.0051                             0.0576
+        ToN-IoT 27520260        0.3898           5742209             0.0421                             0.5595
+      UNSW-NB15  2365424        0.0540           1403719             0.0000                             0.0000
+
+PER FAMILY
+          source                   attack   flows  distinct_vectors  share_identical_to_benign
+        BoT-IoT                      DoS 8034190            354734                     0.0000
+        BoT-IoT                     DDoS 7150882            287453                     0.0000
+        BoT-IoT           Reconnaissance 1695132            898729                     0.2231
+        BoT-IoT                    Theft    1615               448                     0.0000
+CSE-CIC-IDS2018         DDOS_attack-HOIC 1032311            273698                     0.0000
+CSE-CIC-IDS2018           FTP-BruteForce  386720                 1                     0.0000
+CSE-CIC-IDS2018   DDoS_attacks-LOIC-HTTP  288589            266133                     0.0288
+CSE-CIC-IDS2018                      Bot  207703              2804                     0.0000
+CSE-CIC-IDS2018           SSH-Bruteforce  188474             93980                     0.0000
+CSE-CIC-IDS2018            Infilteration  188152             50463                     0.7446
+CSE-CIC-IDS2018 DoS_attacks-SlowHTTPTest  105550                 1                     0.0000
+CSE-CIC-IDS2018         DoS_attacks-Hulk  100076            100072                     0.0000
+CSE-CIC-IDS2018    DoS_attacks-GoldenEye   61300             27410                     0.0000
+CSE-CIC-IDS2018    DoS_attacks-Slowloris   36040              3510                     0.0000
+CSE-CIC-IDS2018     DDOS_attack-LOIC-UDP    3450              1984                     0.0000
+CSE-CIC-IDS2018         Brute_Force_-Web    1618              1106                     0.4129
+CSE-CIC-IDS2018         Brute_Force_-XSS     480                67                     0.9083
+CSE-CIC-IDS2018            SQL_Injection     440               116                     0.7818
+        ToN-IoT                     DDoS 4141256            469449                     0.7538
+        ToN-IoT                      xss 2834435           1582922                     0.3576
+        ToN-IoT                 password 1594777            741649                     0.3158
+        ToN-IoT                 scanning 1358977            227702                     0.9394
+        ToN-IoT                injection  381777            339576                     0.0721
+        ToN-IoT                      DoS  203456            125979                     0.2780
+        ToN-IoT                 Backdoor  203384             20641                     0.0124
+        ToN-IoT                     mitm    6013              4951                     0.0770
+        ToN-IoT               ransomware    3971              2830                     0.0894
+      UNSW-NB15                 Exploits   42748             40424                     0.0000
+      UNSW-NB15                  Fuzzers   33816             26987                     0.0000
+      UNSW-NB15                  Generic   19651              5726                     0.0000
+      UNSW-NB15           Reconnaissance   17074             11908                     0.0000
+      UNSW-NB15                      DoS    5980              5360                     0.0000
+      UNSW-NB15                 Backdoor    4659              3656                     0.0000
+      UNSW-NB15                Shellcode    2381              2316                     0.0000
+      UNSW-NB15                 Analysis    1226              1226                     0.0000
+      UNSW-NB15                    Worms     158               146                     0.0000
+
+Done in 733s

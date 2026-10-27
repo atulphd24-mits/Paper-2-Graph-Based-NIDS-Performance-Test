@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Shortcut features on pooled BigFlow-NIDS (random row split, 3 seeds, mean $\pm$ std). Behaviour features alone identify the source dataset with 99.4\,$\pm$\,0.06\% balanced accuracy.}
+\label{tab:shortcuts}
+\begin{tabular}{lccc}
+\toprule
+Model input & F1 & PR-AUC & ROC-AUC \\
+\midrule
+Source dataset only (one-hot) & 0.743 $\pm$ 0.000 & 0.642 $\pm$ 0.000 & 0.585 $\pm$ 0.000 \\
+Flow start timestamp only & 0.848 $\pm$ 0.003 & 0.917 $\pm$ 0.002 & 0.894 $\pm$ 0.003 \\
+All behaviour features & 0.962 $\pm$ 0.001 & 0.995 $\pm$ 0.000 & 0.992 $\pm$ 0.000 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\linewidth}{\footnotesize Best single features for source identification: \texttt{in\_bytes} (71.9\%), \texttt{max\_ip\_pkt\_len} (71.8\%), \texttt{longest\_flow\_pkt} (71.8\%).}
+\end{table}

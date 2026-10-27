@@ -1,0 +1,7 @@
+dataset,model,representation,metric,mean_diff,wins,seeds,wilcoxon_p
+ciciot,HistGB,flow + neighbourhood,TPR@FPR1pct,0.00013283980025875498,6,10,0.431640625
+ciciot,HistGB,flow + neighbourhood,PR_AUC_w,2.7210928841059356e-06,10,10,0.001953125
+ciciot,MLP,flow + neighbourhood,TPR@FPR1pct,-0.0018212037601928466,0,10,0.001953125
+ciciot,MLP,flow + neighbourhood,PR_AUC_w,-1.9603719825245226e-05,0,10,0.001953125
+ciciot,RandomForest,flow + neighbourhood,TPR@FPR1pct,-0.0009775783719448872,1,10,0.00390625
+ciciot,RandomForest,flow + neighbourhood,PR_AUC_w,-1.8663129458529326e-06,0,10,0.001953125

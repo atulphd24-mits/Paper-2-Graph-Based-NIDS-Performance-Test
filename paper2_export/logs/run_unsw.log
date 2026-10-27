@@ -1,0 +1,102 @@
+[     0s] unsw: working sample (196795, 128), 41 behaviour features
+[     0s] PART B - single-feature shortcuts (unsw)
+     feature  family_balanced_accuracy  binary_balanced_accuracy
+        sttl                     0.240                     0.989
+ct_state_ttl                     0.263                     0.987
+        dttl                     0.252                     0.938
+      sbytes                     0.409                     0.920
+     smeansz                     0.395                     0.897
+      dbytes                     0.285                     0.894
+       dload                     0.263                     0.892
+       sload                     0.341                     0.888
+     dintpkt                     0.249                     0.882
+     dmeansz                     0.272                     0.879
+[   123s] PART C - split leakage (unsw)
+[   161s] unsw: split seed 0 done
+[   203s] unsw: split seed 1 done
+[   291s] unsw: split seed 2 done
+[   330s] unsw: split seed 3 done
+[   368s] unsw: split seed 4 done
+representation              split  TPR@FPR1pct_mean  TPR@FPR1pct_std  F1_w_mean  PR_AUC_w_mean  dup_overlap_mean
+     behaviour 10-min time blocks            0.9883           0.0075     0.9691         0.9974            0.0810
+     behaviour    attack episodes            0.9698           0.0131     0.9600         0.9961            0.2442
+     behaviour        random rows            0.9931           0.0018     0.9705         0.9978            0.2847
+timestamp only 10-min time blocks            0.1854           0.2137     0.3055         0.2554            0.0810
+timestamp only    attack episodes            0.0000           0.0000     0.3588         0.1608            0.2442
+timestamp only        random rows            0.0896           0.0044     0.3803         0.3339            0.2847
+[   368s] PART C2 - official UNSW-NB15 training/testing split
+official split:       TPR@FPR1pct    F1_w  PR_AUC_w  testFPR@1pct  dup_overlap
+mean       0.9091  0.9257    0.9907        0.0554       0.1037
+std        0.0026  0.0037    0.0002        0.0037       0.0000
+[   447s] PART D - context features (unsw)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1296s] unsw: context seed 0 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2493s] unsw: context seed 1 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3789s] unsw: context seed 2 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  4611s] unsw: context seed 3 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  5835s] unsw: context seed 4 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  6593s] unsw: context seed 5 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  7968s] unsw: context seed 6 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  8689s] unsw: context seed 7 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  9634s] unsw: context seed 8 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[ 10718s] unsw: context seed 9 done (60,000 flows)
+                model              representation  TPR@FPR1pct_mean  TPR@FPR1pct_std  PR_AUC_w_mean  F1_w_mean
+     E-GraphSAGE (ip)                        flow            0.6370           0.3280         0.8703     0.8003
+E-GraphSAGE (ip_port)                        flow            0.9690           0.0192         0.9924     0.9579
+ E-GraphSAGE (random)                        flow            0.9489           0.0234         0.9817     0.9500
+               HistGB                        flow            0.9734           0.0157         0.9951     0.9585
+               HistGB                 flow + host            0.9716           0.0176         0.9959     0.9545
+               HistGB        flow + neighbourhood            0.9680           0.0139         0.9951     0.9565
+               HistGB flow + neighbourhood + host            0.9739           0.0092         0.9961     0.9576
+                  MLP                        flow            0.9522           0.0235         0.9919     0.9551
+                  MLP                 flow + host            0.9625           0.0263         0.9949     0.9532
+                  MLP        flow + neighbourhood            0.9592           0.0243         0.9943     0.9535
+                  MLP flow + neighbourhood + host            0.9699           0.0235         0.9953     0.9590
+         RandomForest                        flow            0.9669           0.0248         0.9909     0.9584
+         RandomForest                 flow + host            0.9544           0.0367         0.9929     0.9499
+         RandomForest        flow + neighbourhood            0.9596           0.0245         0.9931     0.9563
+         RandomForest flow + neighbourhood + host            0.9550           0.0311         0.9933     0.9552
+dataset                 model              representation      metric  mean_diff  wins  seeds  wilcoxon_p
+   unsw                HistGB                 flow + host TPR@FPR1pct    -0.0018     4     10      0.9219
+   unsw                HistGB                 flow + host    PR_AUC_w     0.0008     7     10      0.1055
+   unsw                HistGB        flow + neighbourhood TPR@FPR1pct    -0.0053     2     10      0.1602
+   unsw                HistGB        flow + neighbourhood    PR_AUC_w    -0.0000     6     10      0.8457
+   unsw                HistGB flow + neighbourhood + host TPR@FPR1pct     0.0005     4     10      0.9219
+   unsw                HistGB flow + neighbourhood + host    PR_AUC_w     0.0010    10     10      0.0020
+   unsw                   MLP                 flow + host TPR@FPR1pct     0.0103     7     10      0.1055
+   unsw                   MLP                 flow + host    PR_AUC_w     0.0030     9     10      0.0039
+   unsw                   MLP        flow + neighbourhood TPR@FPR1pct     0.0070     9     10      0.0195
+   unsw                   MLP        flow + neighbourhood    PR_AUC_w     0.0024     9     10      0.0039
+   unsw                   MLP flow + neighbourhood + host TPR@FPR1pct     0.0177     9     10      0.0059
+   unsw                   MLP flow + neighbourhood + host    PR_AUC_w     0.0034    10     10      0.0020
+   unsw          RandomForest                 flow + host TPR@FPR1pct    -0.0125     5     10      0.4922
+   unsw          RandomForest                 flow + host    PR_AUC_w     0.0021     6     10      0.3750
+   unsw          RandomForest        flow + neighbourhood TPR@FPR1pct    -0.0073     0     10      0.0020
+   unsw          RandomForest        flow + neighbourhood    PR_AUC_w     0.0022     6     10      0.1934
+   unsw          RandomForest flow + neighbourhood + host TPR@FPR1pct    -0.0119     1     10      0.0371
+   unsw          RandomForest flow + neighbourhood + host    PR_AUC_w     0.0024     5     10      0.4316
+   unsw      E-GraphSAGE (ip)                         NaN TPR@FPR1pct    -0.3364     0     10      0.0020
+   unsw      E-GraphSAGE (ip)                         NaN    PR_AUC_w    -0.1249     0     10      0.0020
+   unsw E-GraphSAGE (ip_port)                         NaN TPR@FPR1pct    -0.0044     4     10      0.4316
+   unsw E-GraphSAGE (ip_port)                         NaN    PR_AUC_w    -0.0028     4     10      0.4316
+   unsw  E-GraphSAGE (random)                         NaN TPR@FPR1pct    -0.0244     0     10      0.0020
+   unsw  E-GraphSAGE (random)                         NaN    PR_AUC_w    -0.0135     0     10      0.0020

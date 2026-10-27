@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{E-GraphSAGE (re-implemented) with three endpoint definitions against a flow-only gradient-boosting baseline (10 seeds). The random-node control gives every flow its own endpoints, removing shared graph structure. Significance markers: paired Wilcoxon test against the baseline.}
+\label{tab:egraphsage}
+\begin{tabular}{lcccc}
+\toprule
+Model & \multicolumn{2}{c}{Random rows} & \multicolumn{2}{c}{Attack episodes} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+ & TPR@1\%FPR & PR-AUC & TPR@1\%FPR & PR-AUC \\
+\midrule
+\multicolumn{5}{l}{\textit{CSE-CIC-IDS2018}} \\
+\quad Gradient boosting, flow only (no graph) & 0.952 $\pm$ 0.001 & 0.974 & 0.919 $\pm$ 0.048 & 0.958 \\
+\quad E-GraphSAGE, IP nodes & 0.964 $\pm$ 0.006$^{**}$ & 0.994 & 0.965 $\pm$ 0.010$^{**}$ & 0.994 \\
+\quad E-GraphSAGE, IP:port nodes & 0.954 $\pm$ 0.001$^{**}$ & 0.974 & 0.955 $\pm$ 0.009$^{**}$ & 0.974 \\
+\quad E-GraphSAGE, random nodes (control) & 0.951 $\pm$ 0.001$^{**}$ & 0.971 & 0.935 $\pm$ 0.020 & 0.961 \\
+\multicolumn{5}{l}{\textit{ToN-IoT}} \\
+\quad Gradient boosting, flow only (no graph) & 0.816 $\pm$ 0.025 & 0.978 & 0.825 $\pm$ 0.051 & 0.958 \\
+\quad E-GraphSAGE, IP nodes & 0.587 $\pm$ 0.007$^{**}$ & 0.913 & 0.623 $\pm$ 0.203$^{**}$ & 0.877 \\
+\quad E-GraphSAGE, IP:port nodes & 0.749 $\pm$ 0.037$^{**}$ & 0.973 & 0.719 $\pm$ 0.098$^{**}$ & 0.940 \\
+\quad E-GraphSAGE, random nodes (control) & 0.796 $\pm$ 0.019$^{*}$ & 0.975 & 0.696 $\pm$ 0.118$^{**}$ & 0.940 \\
+\bottomrule
+\end{tabular}
+\end{table}

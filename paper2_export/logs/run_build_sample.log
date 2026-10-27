@@ -1,0 +1,48 @@
+[     0s] Sampling all files
+[   483s] Sample: 859,697 rows
+source           attack                  
+BoT-IoT          Benign                       51989
+                 DDoS                         19902
+                 DoS                          20045
+                 Reconnaissance               20181
+                 Theft                         1615
+CSE-CIC-IDS2018  Benign                       99593
+                 Bot                          19871
+                 Brute_Force_-Web              1618
+                 Brute_Force_-XSS               480
+                 DDOS_attack-HOIC             19944
+                 DDOS_attack-LOIC-UDP          3450
+                 DDoS_attacks-LOIC-HTTP       19712
+                 DoS_attacks-GoldenEye        20021
+                 DoS_attacks-Hulk             20081
+                 DoS_attacks-SlowHTTPTest     19754
+                 DoS_attacks-Slowloris        20018
+                 FTP-BruteForce               19828
+                 Infilteration                19868
+                 SQL_Injection                  440
+                 SSH-Bruteforce               19812
+ToN-IoT          Backdoor                     19862
+                 Benign                      100235
+                 DDoS                         20042
+                 DoS                          19870
+                 injection                    19977
+                 mitm                          6013
+                 password                     20279
+                 ransomware                    3971
+                 scanning                     19850
+                 xss                          20058
+UNSW-NB15        Analysis                      1226
+                 Backdoor                      4659
+                 Benign                      100209
+                 DoS                           5980
+                 Exploits                     19996
+                 Fuzzers                      19984
+                 Generic                      19651
+                 Reconnaissance               17074
+                 Shellcode                     2381
+                 Worms                          158
+[   614s] BoT-IoT: 16,933,808 flows for host features
+[   837s] CSE-CIC-IDS2018: 20,115,529 flows for host features
+[  1401s] ToN-IoT: 27,520,260 flows for host features
+[  1859s] UNSW-NB15: 2,365,424 flows for host features
+[  1898s] Saved /home/ccc/jupyter/SOC-Threat-Detection/data/processed/bigflow_working_sample.parquet (859697, 136)

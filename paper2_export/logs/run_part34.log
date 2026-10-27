@@ -1,0 +1,254 @@
+[     0s] Working sample (859697, 136), behaviour features: 47
+[     0s] PART 3 - split strategies
+[    37s] BoT-IoT: seed 0 done
+[    74s] BoT-IoT: seed 1 done
+[   112s] BoT-IoT: seed 2 done
+[   149s] BoT-IoT: seed 3 done
+[   187s] BoT-IoT: seed 4 done
+[   297s] CSE-CIC-IDS2018: seed 0 done
+[   391s] CSE-CIC-IDS2018: seed 1 done
+[   471s] CSE-CIC-IDS2018: seed 2 done
+[   647s] CSE-CIC-IDS2018: seed 3 done
+[   724s] CSE-CIC-IDS2018: seed 4 done
+[   784s] ToN-IoT: seed 0 done
+[   844s] ToN-IoT: seed 1 done
+[   907s] ToN-IoT: seed 2 done
+[   970s] ToN-IoT: seed 3 done
+[  1032s] ToN-IoT: seed 4 done
+[  1081s] UNSW-NB15: seed 0 done
+[  1133s] UNSW-NB15: seed 1 done
+[  1181s] UNSW-NB15: seed 2 done
+[  1230s] UNSW-NB15: seed 3 done
+[  1277s] UNSW-NB15: seed 4 done
+
+          source representation              split  TPR@FPR1pct_mean  TPR@FPR1pct_std  PR_AUC_w_mean  F1_w_mean  dup_overlap_mean
+        BoT-IoT      behaviour 10-min time blocks            0.9820           0.0002         1.0000     0.9988            0.1829
+        BoT-IoT      behaviour    attack episodes            0.2238           0.3441         0.9981     0.9953            0.1337
+        BoT-IoT      behaviour        random rows            0.9798           0.0005         1.0000     0.9992            0.4274
+        BoT-IoT timestamp only 10-min time blocks            0.0847           0.1894         0.9996     0.9882            0.1829
+        BoT-IoT timestamp only    attack episodes            0.0000           0.0000         0.9952     0.8588            0.1337
+        BoT-IoT timestamp only        random rows            0.2908           0.0350         0.9999     0.9992            0.4274
+CSE-CIC-IDS2018      behaviour 10-min time blocks            0.9638           0.0003         0.9802     0.9739            0.3692
+CSE-CIC-IDS2018      behaviour    attack episodes            0.9532           0.0054         0.9712     0.9302            0.3706
+CSE-CIC-IDS2018      behaviour        random rows            0.9543           0.0006         0.9752     0.9710            0.4634
+CSE-CIC-IDS2018 timestamp only 10-min time blocks            0.4103           0.0174         0.6895     0.5663            0.3692
+CSE-CIC-IDS2018 timestamp only    attack episodes            0.0000           0.0000         0.1564     0.2035            0.3706
+CSE-CIC-IDS2018 timestamp only        random rows            0.1197           0.0229         0.6167     0.6894            0.4634
+        ToN-IoT      behaviour 10-min time blocks            0.8449           0.0013         0.9462     0.7502            0.4162
+        ToN-IoT      behaviour    attack episodes            0.7665           0.0954         0.9442     0.8826            0.4182
+        ToN-IoT      behaviour        random rows            0.8222           0.0016         0.9778     0.9295            0.4891
+        ToN-IoT timestamp only 10-min time blocks            0.0892           0.0074         0.7659     0.4705            0.4162
+        ToN-IoT timestamp only    attack episodes            0.0000           0.0000         0.4912     0.5466            0.4182
+        ToN-IoT timestamp only        random rows            0.1141           0.0062         0.7845     0.7197            0.4891
+      UNSW-NB15      behaviour 10-min time blocks            1.0000           0.0000         0.9991     0.9992            0.3117
+      UNSW-NB15      behaviour    attack episodes            1.0000           0.0000         1.0000     0.9989            0.2210
+      UNSW-NB15      behaviour        random rows            1.0000           0.0000         1.0000     0.9994            0.3291
+      UNSW-NB15 timestamp only 10-min time blocks            0.1123           0.0000         0.0989     0.1686            0.3117
+      UNSW-NB15 timestamp only    attack episodes            0.0560           0.0804         0.0633     0.1423            0.2210
+      UNSW-NB15 timestamp only        random rows            0.0320           0.0040         0.1164     0.1878            0.3291
+[  1277s] PART 4 - graph and host features under the episode split
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1343s] BoT-IoT: seed 0 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1406s] BoT-IoT: seed 1 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1479s] BoT-IoT: seed 2 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1546s] BoT-IoT: seed 3 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1611s] BoT-IoT: seed 4 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1678s] BoT-IoT: seed 5 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1750s] BoT-IoT: seed 6 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1830s] BoT-IoT: seed 7 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1905s] BoT-IoT: seed 8 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1972s] BoT-IoT: seed 9 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2044s] CSE-CIC-IDS2018: seed 0 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2118s] CSE-CIC-IDS2018: seed 1 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2187s] CSE-CIC-IDS2018: seed 2 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2263s] CSE-CIC-IDS2018: seed 3 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2333s] CSE-CIC-IDS2018: seed 4 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2404s] CSE-CIC-IDS2018: seed 5 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2475s] CSE-CIC-IDS2018: seed 6 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2545s] CSE-CIC-IDS2018: seed 7 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2617s] CSE-CIC-IDS2018: seed 8 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2691s] CSE-CIC-IDS2018: seed 9 done (60,002 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2768s] ToN-IoT: seed 0 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2847s] ToN-IoT: seed 1 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2924s] ToN-IoT: seed 2 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3003s] ToN-IoT: seed 3 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3078s] ToN-IoT: seed 4 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3151s] ToN-IoT: seed 5 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3225s] ToN-IoT: seed 6 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3301s] ToN-IoT: seed 7 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3378s] ToN-IoT: seed 8 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3472s] ToN-IoT: seed 9 done (59,999 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3532s] UNSW-NB15: seed 0 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3597s] UNSW-NB15: seed 1 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3676s] UNSW-NB15: seed 2 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3774s] UNSW-NB15: seed 3 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3837s] UNSW-NB15: seed 4 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3908s] UNSW-NB15: seed 5 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3970s] UNSW-NB15: seed 6 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  4034s] UNSW-NB15: seed 7 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  4101s] UNSW-NB15: seed 8 done (60,000 flows)
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/pandas/core/nanops.py:1275: RuntimeWarning: invalid value encountered in subtract
+  adjusted = values - mean
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  4160s] UNSW-NB15: seed 9 done (60,000 flows)
+
+          source              representation  TPR@FPR1pct_mean  TPR@FPR1pct_std  TPR@FPR0.1pct_mean  PR_AUC_w_mean  PR_AUC_w_std  F1_w_mean
+        BoT-IoT                        flow            0.3635           0.3849              0.3403         0.9984        0.0013     0.9595
+        BoT-IoT                 flow + host            0.7483           0.4000              0.7457         0.9997        0.0005     0.9987
+        BoT-IoT        flow + neighbourhood            0.5475           0.4072              0.4911         0.9988        0.0010     0.9986
+        BoT-IoT flow + neighbourhood + host            0.7556           0.3966              0.7531         0.9995        0.0006     0.9985
+CSE-CIC-IDS2018                        flow            0.9187           0.0480              0.8000         0.9577        0.0226     0.9210
+CSE-CIC-IDS2018                 flow + host            0.9673           0.0097              0.9401         0.9882        0.0030     0.9579
+CSE-CIC-IDS2018        flow + neighbourhood            0.9493           0.0104              0.9348         0.9709        0.0064     0.9647
+CSE-CIC-IDS2018 flow + neighbourhood + host            0.9686           0.0061              0.9504         0.9882        0.0030     0.9668
+        ToN-IoT                        flow            0.8245           0.0515              0.5328         0.9583        0.0218     0.8927
+        ToN-IoT                 flow + host            0.7364           0.1467              0.4748         0.9319        0.0175     0.8871
+        ToN-IoT        flow + neighbourhood            0.7788           0.1138              0.5304         0.9538        0.0211     0.8954
+        ToN-IoT flow + neighbourhood + host            0.7702           0.1101              0.5173         0.9313        0.0186     0.8628
+      UNSW-NB15                        flow            1.0000           0.0001              0.9999         0.9986        0.0037     0.9896
+      UNSW-NB15                 flow + host            1.0000           0.0000              0.9999         1.0000        0.0000     0.9982
+      UNSW-NB15        flow + neighbourhood            1.0000           0.0000              0.9997         0.9999        0.0001     0.9968
+      UNSW-NB15 flow + neighbourhood + host            1.0000           0.0000              0.9999         1.0000        0.0000     0.9988
+
+Paired Wilcoxon tests vs flow-only:
+          source              representation      metric  mean_diff  wins  seeds  wilcoxon_p
+        BoT-IoT                 flow + host TPR@FPR1pct     0.3848     9     10      0.0098
+        BoT-IoT                 flow + host    PR_AUC_w     0.0014     9     10      0.0039
+        BoT-IoT        flow + neighbourhood TPR@FPR1pct     0.1839     8     10      0.0371
+        BoT-IoT        flow + neighbourhood    PR_AUC_w     0.0004     6     10      0.1602
+        BoT-IoT flow + neighbourhood + host TPR@FPR1pct     0.3921    10     10      0.0020
+        BoT-IoT flow + neighbourhood + host    PR_AUC_w     0.0012     9     10      0.0098
+CSE-CIC-IDS2018                 flow + host TPR@FPR1pct     0.0486    10     10      0.0020
+CSE-CIC-IDS2018                 flow + host    PR_AUC_w     0.0306    10     10      0.0020
+CSE-CIC-IDS2018        flow + neighbourhood TPR@FPR1pct     0.0306     6     10      0.1602
+CSE-CIC-IDS2018        flow + neighbourhood    PR_AUC_w     0.0133     8     10      0.0488
+CSE-CIC-IDS2018 flow + neighbourhood + host TPR@FPR1pct     0.0499    10     10      0.0020
+CSE-CIC-IDS2018 flow + neighbourhood + host    PR_AUC_w     0.0306    10     10      0.0020
+        ToN-IoT                 flow + host TPR@FPR1pct    -0.0881     2     10      0.0195
+        ToN-IoT                 flow + host    PR_AUC_w    -0.0263     1     10      0.0137
+        ToN-IoT        flow + neighbourhood TPR@FPR1pct    -0.0457     4     10      0.2324
+        ToN-IoT        flow + neighbourhood    PR_AUC_w    -0.0044     3     10      0.1934
+        ToN-IoT flow + neighbourhood + host TPR@FPR1pct    -0.0543     5     10      0.2754
+        ToN-IoT flow + neighbourhood + host    PR_AUC_w    -0.0270     2     10      0.0098
+      UNSW-NB15                 flow + host TPR@FPR1pct     0.0000     1     10      1.0000
+      UNSW-NB15                 flow + host    PR_AUC_w     0.0014     9     10      0.0098
+      UNSW-NB15        flow + neighbourhood TPR@FPR1pct     0.0000     1     10      1.0000
+      UNSW-NB15        flow + neighbourhood    PR_AUC_w     0.0013     6     10      0.1934
+      UNSW-NB15 flow + neighbourhood + host TPR@FPR1pct     0.0000     1     10      1.0000
+      UNSW-NB15 flow + neighbourhood + host    PR_AUC_w     0.0014     8     10      0.0137

@@ -1,0 +1,49 @@
+[     1s] Working sample (859697, 136), behaviour features: 47
+[     1s] PART 3 - split strategies
+[   121s] BoT-IoT: seed 0 done
+[   214s] BoT-IoT: seed 1 done
+[   317s] BoT-IoT: seed 2 done
+[   353s] BoT-IoT: seed 3 done
+[   389s] BoT-IoT: seed 4 done
+[   462s] CSE-CIC-IDS2018: seed 0 done
+[   539s] CSE-CIC-IDS2018: seed 1 done
+[   614s] CSE-CIC-IDS2018: seed 2 done
+[   700s] CSE-CIC-IDS2018: seed 3 done
+[   774s] CSE-CIC-IDS2018: seed 4 done
+[   835s] ToN-IoT: seed 0 done
+[   895s] ToN-IoT: seed 1 done
+[   959s] ToN-IoT: seed 2 done
+[  1024s] ToN-IoT: seed 3 done
+[  1081s] ToN-IoT: seed 4 done
+[  1129s] UNSW-NB15: seed 0 done
+[  1179s] UNSW-NB15: seed 1 done
+[  1228s] UNSW-NB15: seed 2 done
+[  1278s] UNSW-NB15: seed 3 done
+[  1324s] UNSW-NB15: seed 4 done
+
+          source representation              split  TPR@FPR1pct_mean  TPR@FPR1pct_std  PR_AUC_w_mean  F1_w_mean  dup_overlap_mean
+        BoT-IoT      behaviour 10-min time blocks            0.8770           0.1917         0.9999     0.9984            0.3666
+        BoT-IoT      behaviour    attack episodes            0.2238           0.3441         0.9981     0.9953            0.1337
+        BoT-IoT      behaviour        random rows            0.9798           0.0005         1.0000     0.9992            0.4274
+        BoT-IoT timestamp only 10-min time blocks            0.3927           0.3344         0.9997     0.9984            0.3666
+        BoT-IoT timestamp only    attack episodes            0.0000           0.0000         0.9952     0.8588            0.1337
+        BoT-IoT timestamp only        random rows            0.2908           0.0350         0.9999     0.9992            0.4274
+CSE-CIC-IDS2018      behaviour 10-min time blocks            0.9505           0.0094         0.9726     0.9680            0.3982
+CSE-CIC-IDS2018      behaviour    attack episodes            0.9532           0.0054         0.9712     0.9302            0.3706
+CSE-CIC-IDS2018      behaviour        random rows            0.9543           0.0006         0.9752     0.9710            0.4634
+CSE-CIC-IDS2018 timestamp only 10-min time blocks            0.0968           0.1910         0.3875     0.3116            0.3982
+CSE-CIC-IDS2018 timestamp only    attack episodes            0.0000           0.0000         0.1564     0.2035            0.3706
+CSE-CIC-IDS2018 timestamp only        random rows            0.1197           0.0229         0.6167     0.6894            0.4634
+        ToN-IoT      behaviour 10-min time blocks            0.6945           0.1845         0.9715     0.9288            0.4539
+        ToN-IoT      behaviour    attack episodes            0.7665           0.0954         0.9442     0.8826            0.4182
+        ToN-IoT      behaviour        random rows            0.8222           0.0016         0.9778     0.9295            0.4891
+        ToN-IoT timestamp only 10-min time blocks            0.1003           0.0558         0.7226     0.6630            0.4539
+        ToN-IoT timestamp only    attack episodes            0.0000           0.0000         0.4912     0.5466            0.4182
+        ToN-IoT timestamp only        random rows            0.1141           0.0062         0.7845     0.7197            0.4891
+      UNSW-NB15      behaviour 10-min time blocks            1.0000           0.0000         1.0000     0.9996            0.3103
+      UNSW-NB15      behaviour    attack episodes            1.0000           0.0000         1.0000     0.9989            0.2210
+      UNSW-NB15      behaviour        random rows            1.0000           0.0000         1.0000     0.9994            0.3291
+      UNSW-NB15 timestamp only 10-min time blocks            0.1245           0.1457         0.1081     0.1809            0.3103
+      UNSW-NB15 timestamp only    attack episodes            0.0560           0.0804         0.0633     0.1423            0.2210
+      UNSW-NB15 timestamp only        random rows            0.0320           0.0040         0.1164     0.1878            0.3291
+DONE

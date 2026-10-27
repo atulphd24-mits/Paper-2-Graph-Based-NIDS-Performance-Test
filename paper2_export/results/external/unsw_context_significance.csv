@@ -1,0 +1,25 @@
+dataset,model,representation,metric,mean_diff,wins,seeds,wilcoxon_p
+unsw,HistGB,flow + host,TPR@FPR1pct,-0.0017732837393136692,4,10,0.921875
+unsw,HistGB,flow + host,PR_AUC_w,0.0007548561775280183,7,10,0.10546875
+unsw,HistGB,flow + neighbourhood,TPR@FPR1pct,-0.005310875251026493,2,10,0.16015625
+unsw,HistGB,flow + neighbourhood,PR_AUC_w,-7.364038413215646e-06,6,10,0.845703125
+unsw,HistGB,flow + neighbourhood + host,TPR@FPR1pct,0.0005474373179537694,4,10,0.921875
+unsw,HistGB,flow + neighbourhood + host,PR_AUC_w,0.0009988377575663066,10,10,0.001953125
+unsw,MLP,flow + host,TPR@FPR1pct,0.010288133498311147,7,10,0.10546875
+unsw,MLP,flow + host,PR_AUC_w,0.0030124029885002734,9,10,0.00390625
+unsw,MLP,flow + neighbourhood,TPR@FPR1pct,0.00703126855691838,9,10,0.01953125
+unsw,MLP,flow + neighbourhood,PR_AUC_w,0.002413724985530752,9,10,0.00390625
+unsw,MLP,flow + neighbourhood + host,TPR@FPR1pct,0.01766042467048856,9,10,0.005859375
+unsw,MLP,flow + neighbourhood + host,PR_AUC_w,0.0034338837924043574,10,10,0.001953125
+unsw,RandomForest,flow + host,TPR@FPR1pct,-0.012481731952448094,5,10,0.4921875
+unsw,RandomForest,flow + host,PR_AUC_w,0.002078808122191145,6,10,0.375
+unsw,RandomForest,flow + neighbourhood,TPR@FPR1pct,-0.007287703846089499,0,10,0.001953125
+unsw,RandomForest,flow + neighbourhood,PR_AUC_w,0.002192022303410124,6,10,0.193359375
+unsw,RandomForest,flow + neighbourhood + host,TPR@FPR1pct,-0.01188103440071191,1,10,0.037109375
+unsw,RandomForest,flow + neighbourhood + host,PR_AUC_w,0.0024266829825739912,5,10,0.431640625
+unsw,E-GraphSAGE (ip),,TPR@FPR1pct,-0.33638794114338494,0,10,0.001953125
+unsw,E-GraphSAGE (ip),,PR_AUC_w,-0.12489305609139398,0,10,0.001953125
+unsw,E-GraphSAGE (ip_port),,TPR@FPR1pct,-0.004364709308055858,4,10,0.431640625
+unsw,E-GraphSAGE (ip_port),,PR_AUC_w,-0.0027511524139838374,4,10,0.431640625
+unsw,E-GraphSAGE (random),,TPR@FPR1pct,-0.024431008761647464,0,10,0.001953125
+unsw,E-GraphSAGE (random),,PR_AUC_w,-0.01346160833241632,0,10,0.001953125

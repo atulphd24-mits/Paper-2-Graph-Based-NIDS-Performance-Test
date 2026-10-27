@@ -1,0 +1,37 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{Share of attack flows whose exact behaviour vector also occurs as benign, per attack family (all flows). Families with a single distinct vector (e.g.\ FTP-BruteForce) are fully duplicated.}
+\label{tab:families}
+\begin{tabular}{lrrr}
+\toprule
+Attack family & Flows & Distinct vectors & Identical to benign (\%) \\
+\midrule
+\multicolumn{4}{l}{\textit{ToN-IoT}} \\
+\quad scanning & 1,358,977 & 227,702 & 93.9 \\
+\quad DDoS & 4,141,256 & 469,449 & 75.4 \\
+\quad xss & 2,834,435 & 1,582,922 & 35.8 \\
+\quad password & 1,594,777 & 741,649 & 31.6 \\
+\quad DoS & 203,456 & 125,979 & 27.8 \\
+\quad ransomware & 3,971 & 2,830 & 8.9 \\
+\quad mitm & 6,013 & 4,951 & 7.7 \\
+\quad injection & 381,777 & 339,576 & 7.2 \\
+\quad Backdoor & 203,384 & 20,641 & 1.2 \\
+\multicolumn{4}{l}{\textit{CSE-CIC-IDS2018}} \\
+\quad Brute Force XSS & 480 & 67 & 90.8 \\
+\quad SQL Injection & 440 & 116 & 78.2 \\
+\quad Infiltration & 188,152 & 50,463 & 74.5 \\
+\quad Brute Force Web & 1,618 & 1,106 & 41.3 \\
+\quad DDoS attacks-LOIC-HTTP & 288,589 & 266,133 & 2.9 \\
+\quad DoS attacks-Hulk & 100,076 & 100,072 & 0.0 \\
+\quad SSH-Bruteforce & 188,474 & 93,980 & 0.0 \\
+\quad Bot & 207,703 & 2,804 & 0.0 \\
+\quad DDOS attack-HOIC & 1,032,311 & 273,698 & 0.0 \\
+\quad FTP-BruteForce & 386,720 & 1 & 0.0 \\
+\quad DoS attacks-Slowloris & 36,040 & 3,510 & 0.0 \\
+\quad DoS attacks-GoldenEye & 61,300 & 27,410 & 0.0 \\
+\quad DoS attacks-SlowHTTPTest & 105,550 & 1 & 0.0 \\
+\quad DDOS attack-LOIC-UDP & 3,450 & 1,984 & 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

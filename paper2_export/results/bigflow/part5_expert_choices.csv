@@ -1,0 +1,24 @@
+source,family,flow,flow + host,flow + neighbourhood
+CSE-CIC-IDS2018,Bot,10,0,0
+CSE-CIC-IDS2018,Brute_Force_-Web,7,1,2
+CSE-CIC-IDS2018,Brute_Force_-XSS,8,2,0
+CSE-CIC-IDS2018,DDOS_attack-HOIC,10,0,0
+CSE-CIC-IDS2018,DDOS_attack-LOIC-UDP,10,0,0
+CSE-CIC-IDS2018,DDoS_attacks-LOIC-HTTP,4,1,1
+CSE-CIC-IDS2018,DoS_attacks-GoldenEye,7,3,0
+CSE-CIC-IDS2018,DoS_attacks-Hulk,10,0,0
+CSE-CIC-IDS2018,DoS_attacks-SlowHTTPTest,10,0,0
+CSE-CIC-IDS2018,DoS_attacks-Slowloris,10,0,0
+CSE-CIC-IDS2018,FTP-BruteForce,10,0,0
+CSE-CIC-IDS2018,Infilteration,0,10,0
+CSE-CIC-IDS2018,SQL_Injection,9,1,0
+CSE-CIC-IDS2018,SSH-Bruteforce,10,0,0
+ToN-IoT,Backdoor,3,2,3
+ToN-IoT,DDoS,8,1,1
+ToN-IoT,DoS,1,8,1
+ToN-IoT,injection,3,3,2
+ToN-IoT,mitm,6,1,1
+ToN-IoT,password,6,3,1
+ToN-IoT,ransomware,2,1,0
+ToN-IoT,scanning,8,1,1
+ToN-IoT,xss,5,4,1

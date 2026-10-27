@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{Sensitivity to the episode gap (gradient boosting, 10 seeds, TPR at 1\% FPR, mean $\pm$ std). Markers: paired Wilcoxon test against flow features at the same gap.}
+\label{tab:gap}
+\begin{tabular}{lccc}
+\toprule
+Episode gap & Flow & + Host & + Neigh.\ + host \\
+\midrule
+\multicolumn{4}{l}{\textit{CSE-CIC-IDS2018}} \\
+\quad 1 min & 0.942 $\pm$ 0.019 & 0.941 $\pm$ 0.025 & 0.966 $\pm$ 0.011$^{**}$ \\
+\quad 5 min & 0.919 $\pm$ 0.048 & 0.967 $\pm$ 0.010$^{**}$ & 0.969 $\pm$ 0.006$^{**}$ \\
+\quad 30 min & 0.943 $\pm$ 0.002 & 0.970 $\pm$ 0.004$^{**}$ & 0.971 $\pm$ 0.002$^{**}$ \\
+\multicolumn{4}{l}{\textit{ToN-IoT}} \\
+\quad 1 min & 0.639 $\pm$ 0.062 & 0.537 $\pm$ 0.082$^{*}$ & 0.579 $\pm$ 0.089 \\
+\quad 5 min & 0.825 $\pm$ 0.051 & 0.736 $\pm$ 0.147$^{*}$ & 0.770 $\pm$ 0.110 \\
+\quad 30 min & 0.767 $\pm$ 0.119 & 0.686 $\pm$ 0.205$^{*}$ & 0.694 $\pm$ 0.206 \\
+\bottomrule
+\end{tabular}
+\end{table}

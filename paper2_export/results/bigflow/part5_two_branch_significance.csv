@@ -1,0 +1,13 @@
+source,representation,metric,mean_diff,wins,seeds,wilcoxon_p,baseline
+CSE-CIC-IDS2018,family-gated (ours),TPR@FPR1pct,0.04737753216374775,10,10,0.001953125,flow
+CSE-CIC-IDS2018,family-gated (ours),PR_AUC_w,0.028655334463543937,10,10,0.001953125,flow
+ToN-IoT,family-gated (ours),TPR@FPR1pct,0.004573407332788604,6,10,0.193359375,flow
+ToN-IoT,family-gated (ours),PR_AUC_w,-0.007652452769810003,2,10,0.037109375,flow
+CSE-CIC-IDS2018,family-gated (ours),TPR@FPR1pct,-0.0012265487957005216,1,10,0.083984375,flow + host
+CSE-CIC-IDS2018,family-gated (ours),PR_AUC_w,-0.0019091334929820514,2,10,0.037109375,flow + host
+ToN-IoT,family-gated (ours),TPR@FPR1pct,0.09267442407597551,9,10,0.00390625,flow + host
+ToN-IoT,family-gated (ours),PR_AUC_w,0.018676123960616152,9,10,0.02734375,flow + host
+CSE-CIC-IDS2018,family-gated (ours),TPR@FPR1pct,0.020466959243293604,10,10,0.001953125,ensemble (mean of experts)
+CSE-CIC-IDS2018,family-gated (ours),PR_AUC_w,0.009618451430510233,10,10,0.001953125,ensemble (mean of experts)
+ToN-IoT,family-gated (ours),TPR@FPR1pct,0.015463368145174928,6,10,0.275390625,ensemble (mean of experts)
+ToN-IoT,family-gated (ours),PR_AUC_w,-0.0005883199359459912,5,10,0.6953125,ensemble (mean of experts)

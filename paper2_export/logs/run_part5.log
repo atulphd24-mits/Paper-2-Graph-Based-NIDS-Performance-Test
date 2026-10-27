@@ -1,0 +1,116 @@
+[     0s] Working sample (859697, 136), behaviour features: 47
+[     0s] PART 5 - family-gated two-branch detector
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[    68s] ToN-IoT: seed 0 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   138s] ToN-IoT: seed 1 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   205s] ToN-IoT: seed 2 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   276s] ToN-IoT: seed 3 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   343s] ToN-IoT: seed 4 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   417s] ToN-IoT: seed 5 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   483s] ToN-IoT: seed 6 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   552s] ToN-IoT: seed 7 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   621s] ToN-IoT: seed 8 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   725s] ToN-IoT: seed 9 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   809s] CSE-CIC-IDS2018: seed 0 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   879s] CSE-CIC-IDS2018: seed 1 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   950s] CSE-CIC-IDS2018: seed 2 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1060s] CSE-CIC-IDS2018: seed 3 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1129s] CSE-CIC-IDS2018: seed 4 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1199s] CSE-CIC-IDS2018: seed 5 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1268s] CSE-CIC-IDS2018: seed 6 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1337s] CSE-CIC-IDS2018: seed 7 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1408s] CSE-CIC-IDS2018: seed 8 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1478s] CSE-CIC-IDS2018: seed 9 done
+
+          source             representation  TPR@FPR1pct_mean  TPR@FPR1pct_std  TPR@FPR0.1pct_mean  PR_AUC_w_mean  PR_AUC_w_std  F1_w_mean  F1_w_std
+CSE-CIC-IDS2018 ensemble (mean of experts)            0.9456           0.0177              0.9207         0.9767        0.0048     0.9354    0.0242
+CSE-CIC-IDS2018        family-gated (ours)            0.9661           0.0060              0.8659         0.9863        0.0028     0.9473    0.0215
+CSE-CIC-IDS2018                       flow            0.9187           0.0480              0.8000         0.9577        0.0226     0.9210    0.0270
+CSE-CIC-IDS2018                flow + host            0.9673           0.0097              0.9401         0.9882        0.0030     0.9579    0.0162
+CSE-CIC-IDS2018       flow + neighbourhood            0.9493           0.0104              0.9348         0.9709        0.0064     0.9647    0.0039
+        ToN-IoT ensemble (mean of experts)            0.8136           0.0752              0.5735         0.9512        0.0192     0.8816    0.0631
+        ToN-IoT        family-gated (ours)            0.8291           0.0566              0.5617         0.9506        0.0201     0.8954    0.0380
+        ToN-IoT                       flow            0.8245           0.0515              0.5328         0.9583        0.0218     0.8927    0.0362
+        ToN-IoT                flow + host            0.7364           0.1467              0.4748         0.9319        0.0175     0.8871    0.0191
+        ToN-IoT       flow + neighbourhood            0.7788           0.1138              0.5304         0.9538        0.0211     0.8954    0.0372
+
+Expert chosen per family (count over seeds):
+ expert                                    flow  flow + host  flow + neighbourhood
+source          family                                                           
+CSE-CIC-IDS2018 Bot                         10            0                     0
+                Brute_Force_-Web             7            1                     2
+                Brute_Force_-XSS             8            2                     0
+                DDOS_attack-HOIC            10            0                     0
+                DDOS_attack-LOIC-UDP        10            0                     0
+                DDoS_attacks-LOIC-HTTP       4            1                     1
+                DoS_attacks-GoldenEye        7            3                     0
+                DoS_attacks-Hulk            10            0                     0
+                DoS_attacks-SlowHTTPTest    10            0                     0
+                DoS_attacks-Slowloris       10            0                     0
+                FTP-BruteForce              10            0                     0
+                Infilteration                0           10                     0
+                SQL_Injection                9            1                     0
+                SSH-Bruteforce              10            0                     0
+ToN-IoT         Backdoor                     3            2                     3
+                DDoS                         8            1                     1
+                DoS                          1            8                     1
+                injection                    3            3                     2
+                mitm                         6            1                     1
+                password                     6            3                     1
+                ransomware                   2            1                     0
+                scanning                     8            1                     1
+                xss                          5            4                     1
+
+Paired Wilcoxon tests for the gated detector:
+          source      representation      metric  mean_diff  wins  seeds  wilcoxon_p                   baseline
+CSE-CIC-IDS2018 family-gated (ours) TPR@FPR1pct     0.0474    10     10      0.0020                       flow
+CSE-CIC-IDS2018 family-gated (ours)    PR_AUC_w     0.0287    10     10      0.0020                       flow
+        ToN-IoT family-gated (ours) TPR@FPR1pct     0.0046     6     10      0.1934                       flow
+        ToN-IoT family-gated (ours)    PR_AUC_w    -0.0077     2     10      0.0371                       flow
+CSE-CIC-IDS2018 family-gated (ours) TPR@FPR1pct    -0.0012     1     10      0.0840                flow + host
+CSE-CIC-IDS2018 family-gated (ours)    PR_AUC_w    -0.0019     2     10      0.0371                flow + host
+        ToN-IoT family-gated (ours) TPR@FPR1pct     0.0927     9     10      0.0039                flow + host
+        ToN-IoT family-gated (ours)    PR_AUC_w     0.0187     9     10      0.0273                flow + host
+CSE-CIC-IDS2018 family-gated (ours) TPR@FPR1pct     0.0205    10     10      0.0020 ensemble (mean of experts)
+CSE-CIC-IDS2018 family-gated (ours)    PR_AUC_w     0.0096    10     10      0.0020 ensemble (mean of experts)
+        ToN-IoT family-gated (ours) TPR@FPR1pct     0.0155     6     10      0.2754 ensemble (mean of experts)
+        ToN-IoT family-gated (ours)    PR_AUC_w    -0.0006     5     10      0.6953 ensemble (mean of experts)

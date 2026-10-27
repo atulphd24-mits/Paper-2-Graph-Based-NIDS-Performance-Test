@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Cross-dataset summary. \emph{Shortcut}: strongest single input and its balanced accuracy in \% (BigFlow: source identification on pooled data; external datasets: attack vs benign from one feature). \emph{Timestamp-only}: TPR at 1\% FPR under random rows / attack episodes. \emph{F1}: weighted F1 of gradient boosting under random rows / attack episodes. Context and E-GraphSAGE columns: change in TPR at 1\% FPR against flow-only gradient boosting (10 seeds; $^{*}p<0.05$, $^{**}p<0.01$). n/a: not applicable because the release has no timestamps or addresses.}
+\label{tab:external}
+\begin{tabular}{lccccccc}
+\toprule
+Dataset & Shortcut (\%) & Ambig.\ (\%) & Timestamp-only & F1 & + Neigh. & + Host & E-GraphSAGE (IP) \\
+\midrule
+BigFlow: ToN-IoT & source dataset (99.4) & 56.0 & 0.11 / 0.00 & 0.930 / 0.883 & -0.046 & -0.088$^{*}$ & -0.202$^{**}$ \\
+BigFlow: CSE-CIC-IDS2018 & source dataset (99.4) & 5.8 & 0.12 / 0.00 & 0.971 / 0.930 & +0.031 & +0.049$^{**}$ & +0.047$^{**}$ \\
+UNSW-NB15 (original) & \texttt{sttl} (98.9) & 0.3 & 0.09 / 0.00 & 0.970 / 0.960 & -0.005 & -0.002 & -0.336$^{**}$ \\
+CIC-IoT2023 & \texttt{IAT} (93.6) & n/a$^{\dagger}$ & n/a & 0.999 / n/a & +0.000 & n/a & n/a \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\linewidth}{\footnotesize $^{\dagger}$CIC-IoT2023 features are continuous window statistics: only 34 of 46.7 million rows are exact duplicates, so exact-match ambiguity is not informative.}
+\end{table}

@@ -1,0 +1,84 @@
+[     0s] PART A - label ambiguity (ciciot, all rows)
+dataset     rows  attack_share  distinct_vectors  irreducible_error  attack_flows_in_ambiguous_vectors  duplicate_rows
+ ciciot 46686579        0.9765          46686545                0.0                                0.0             0.0
+                 attack   flows  distinct_vectors  share_identical_to_benign
+        DDoS-ICMP_Flood 7200504           7200488                        0.0
+         DDoS-UDP_Flood 5412287           5412287                        0.0
+         DDoS-TCP_Flood 4497667           4497665                        0.0
+      DDoS-PSHACK_Flood 4094755           4094751                        0.0
+         DDoS-SYN_Flood 4059190           4059188                        0.0
+       DDoS-RSTFINFlood 4045285           4045282                        0.0
+DDoS-SynonymousIP_Flood 3598138           3598138                        0.0
+          DoS-UDP_Flood 3318595           3318594                        0.0
+          DoS-TCP_Flood 2671445           2671445                        0.0
+          DoS-SYN_Flood 2028834           2028834                        0.0
+     Mirai-greeth_flood  991866            991866                        0.0
+         Mirai-udpplain  890576            890576                        0.0
+      Mirai-greip_flood  751682            751682                        0.0
+DDoS-ICMP_Fragmentation  452489            452489                        0.0
+       MITM-ArpSpoofing  307593            307593                        0.0
+ DDoS-UDP_Fragmentation  286925            286925                        0.0
+ DDoS-ACK_Fragmentation  285104            285104                        0.0
+           DNS_Spoofing  178911            178910                        0.0
+    Recon-HostDiscovery  134378            134377                        0.0
+           Recon-OSScan   98259             98259                        0.0
+         Recon-PortScan   82284             82280                        0.0
+         DoS-HTTP_Flood   71864             71864                        0.0
+      VulnerabilityScan   37382             37382                        0.0
+        DDoS-HTTP_Flood   28790             28790                        0.0
+         DDoS-SlowLoris   23426             23426                        0.0
+   DictionaryBruteForce   13064             13064                        0.0
+       BrowserHijacking    5859              5859                        0.0
+       CommandInjection    5409              5409                        0.0
+           SqlInjection    5245              5245                        0.0
+                    XSS    3846              3846                        0.0
+       Backdoor_Malware    3218              3218                        0.0
+        Recon-PingSweep    2262              2262                        0.0
+       Uploading_Attack    1252              1252                        0.0
+[  1003s] ciciot: working sample (639807, 49), 46 behaviour features
+[  1003s] PART B - single-feature shortcuts (ciciot)
+      feature  family_balanced_accuracy  binary_balanced_accuracy
+          IAT                     0.673                     0.936
+       Number                     0.059                     0.872
+       Weight                     0.059                     0.872
+    rst_count                     0.170                     0.868
+    urg_count                     0.131                     0.858
+     Variance                     0.126                     0.854
+flow_duration                     0.146                     0.807
+Header_Length                     0.221                     0.807
+        HTTPS                     0.029                     0.796
+     Duration                     0.095                     0.795
+[  1266s] PART C - split leakage (ciciot)
+[  1281s] ciciot: split seed 0 done
+[  1293s] ciciot: split seed 1 done
+[  1306s] ciciot: split seed 2 done
+[  1322s] ciciot: split seed 3 done
+[  1338s] ciciot: split seed 4 done
+representation       split  TPR@FPR1pct_mean  TPR@FPR1pct_std  F1_w_mean  PR_AUC_w_mean  dup_overlap_mean
+     behaviour random rows            0.9969           0.0001     0.9987            1.0               0.0
+[  1339s] PART D - context features (ciciot)
+[  2004s] ciciot: context seed 0 done (60,001 flows)
+[  2837s] ciciot: context seed 1 done (60,001 flows)
+[  3818s] ciciot: context seed 2 done (60,001 flows)
+[  4878s] ciciot: context seed 3 done (60,001 flows)
+[  5932s] ciciot: context seed 4 done (60,001 flows)
+[  6829s] ciciot: context seed 5 done (60,001 flows)
+[  8707s] ciciot: context seed 6 done (60,001 flows)
+[  9510s] ciciot: context seed 7 done (60,001 flows)
+[ 10383s] ciciot: context seed 8 done (60,001 flows)
+[ 11500s] ciciot: context seed 9 done (60,001 flows)
+       model       representation  TPR@FPR1pct_mean  TPR@FPR1pct_std  PR_AUC_w_mean  F1_w_mean
+      HistGB                 flow            0.9959           0.0004         1.0000     0.9984
+      HistGB flow + neighbourhood            0.9961           0.0005         1.0000     0.9984
+         MLP                 flow            0.9910           0.0008         1.0000     0.9969
+         MLP flow + neighbourhood            0.9892           0.0010         0.9999     0.9966
+RandomForest                 flow            0.9951           0.0006         1.0000     0.9984
+RandomForest flow + neighbourhood            0.9942           0.0011         1.0000     0.9982
+dataset        model       representation      metric  mean_diff  wins  seeds  wilcoxon_p
+ ciciot       HistGB flow + neighbourhood TPR@FPR1pct     0.0001     6     10      0.4316
+ ciciot       HistGB flow + neighbourhood    PR_AUC_w     0.0000    10     10      0.0020
+ ciciot          MLP flow + neighbourhood TPR@FPR1pct    -0.0018     0     10      0.0020
+ ciciot          MLP flow + neighbourhood    PR_AUC_w    -0.0000     0     10      0.0020
+ ciciot RandomForest flow + neighbourhood TPR@FPR1pct    -0.0010     1     10      0.0039
+ ciciot RandomForest flow + neighbourhood    PR_AUC_w    -0.0000     0     10      0.0020
+ALL-DONE

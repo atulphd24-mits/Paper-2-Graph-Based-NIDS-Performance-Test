@@ -1,0 +1,256 @@
+[     1s] Working sample (859697, 136)
+[     1s] PART B - episode gap sensitivity
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[    68s] B ToN-IoT: gap 1 min, seed 0 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   134s] B ToN-IoT: gap 1 min, seed 1 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   201s] B ToN-IoT: gap 1 min, seed 2 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   269s] B ToN-IoT: gap 1 min, seed 3 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   336s] B ToN-IoT: gap 1 min, seed 4 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   404s] B ToN-IoT: gap 1 min, seed 5 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   470s] B ToN-IoT: gap 1 min, seed 6 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   537s] B ToN-IoT: gap 1 min, seed 7 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   602s] B ToN-IoT: gap 1 min, seed 8 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   669s] B ToN-IoT: gap 1 min, seed 9 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   736s] B ToN-IoT: gap 5 min, seed 0 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   803s] B ToN-IoT: gap 5 min, seed 1 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   870s] B ToN-IoT: gap 5 min, seed 2 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[   938s] B ToN-IoT: gap 5 min, seed 3 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1003s] B ToN-IoT: gap 5 min, seed 4 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1068s] B ToN-IoT: gap 5 min, seed 5 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1133s] B ToN-IoT: gap 5 min, seed 6 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1199s] B ToN-IoT: gap 5 min, seed 7 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1266s] B ToN-IoT: gap 5 min, seed 8 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1332s] B ToN-IoT: gap 5 min, seed 9 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1402s] B ToN-IoT: gap 30 min, seed 0 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1474s] B ToN-IoT: gap 30 min, seed 1 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1546s] B ToN-IoT: gap 30 min, seed 2 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1617s] B ToN-IoT: gap 30 min, seed 3 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1686s] B ToN-IoT: gap 30 min, seed 4 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1755s] B ToN-IoT: gap 30 min, seed 5 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1824s] B ToN-IoT: gap 30 min, seed 6 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1895s] B ToN-IoT: gap 30 min, seed 7 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  1965s] B ToN-IoT: gap 30 min, seed 8 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2035s] B ToN-IoT: gap 30 min, seed 9 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2094s] B CSE-CIC-IDS2018: gap 1 min, seed 0 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2155s] B CSE-CIC-IDS2018: gap 1 min, seed 1 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2216s] B CSE-CIC-IDS2018: gap 1 min, seed 2 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2275s] B CSE-CIC-IDS2018: gap 1 min, seed 3 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2336s] B CSE-CIC-IDS2018: gap 1 min, seed 4 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2397s] B CSE-CIC-IDS2018: gap 1 min, seed 5 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2460s] B CSE-CIC-IDS2018: gap 1 min, seed 6 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2520s] B CSE-CIC-IDS2018: gap 1 min, seed 7 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2578s] B CSE-CIC-IDS2018: gap 1 min, seed 8 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2637s] B CSE-CIC-IDS2018: gap 1 min, seed 9 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2697s] B CSE-CIC-IDS2018: gap 5 min, seed 0 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2759s] B CSE-CIC-IDS2018: gap 5 min, seed 1 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2817s] B CSE-CIC-IDS2018: gap 5 min, seed 2 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2881s] B CSE-CIC-IDS2018: gap 5 min, seed 3 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2940s] B CSE-CIC-IDS2018: gap 5 min, seed 4 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  2999s] B CSE-CIC-IDS2018: gap 5 min, seed 5 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3058s] B CSE-CIC-IDS2018: gap 5 min, seed 6 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3116s] B CSE-CIC-IDS2018: gap 5 min, seed 7 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3176s] B CSE-CIC-IDS2018: gap 5 min, seed 8 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3235s] B CSE-CIC-IDS2018: gap 5 min, seed 9 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3300s] B CSE-CIC-IDS2018: gap 30 min, seed 0 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3366s] B CSE-CIC-IDS2018: gap 30 min, seed 1 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3429s] B CSE-CIC-IDS2018: gap 30 min, seed 2 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3493s] B CSE-CIC-IDS2018: gap 30 min, seed 3 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3561s] B CSE-CIC-IDS2018: gap 30 min, seed 4 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3626s] B CSE-CIC-IDS2018: gap 30 min, seed 5 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3691s] B CSE-CIC-IDS2018: gap 30 min, seed 6 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3753s] B CSE-CIC-IDS2018: gap 30 min, seed 7 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3831s] B CSE-CIC-IDS2018: gap 30 min, seed 8 done
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/sklearn/neighbors/_lof.py:327: UserWarning: Duplicate values are leading to incorrect results. Increase the number of neighbors for more accurate results.
+  warnings.warn(
+[  3896s] B CSE-CIC-IDS2018: gap 30 min, seed 9 done
+
+          source  gap_min              representation  TPR@FPR1pct_mean  TPR@FPR1pct_std  PR_AUC_w_mean  F1_w_mean  dup_overlap_mean
+CSE-CIC-IDS2018        1                        flow            0.9416           0.0193         0.9667     0.9508            0.2440
+CSE-CIC-IDS2018        1                 flow + host            0.9412           0.0247         0.9817     0.9338            0.2440
+CSE-CIC-IDS2018        1 flow + neighbourhood + host            0.9659           0.0110         0.9875     0.9583            0.2440
+CSE-CIC-IDS2018        5                        flow            0.9187           0.0480         0.9577     0.9210            0.2615
+CSE-CIC-IDS2018        5                 flow + host            0.9673           0.0097         0.9882     0.9579            0.2615
+CSE-CIC-IDS2018        5 flow + neighbourhood + host            0.9686           0.0061         0.9882     0.9668            0.2615
+CSE-CIC-IDS2018       30                        flow            0.9435           0.0021         0.9686     0.9525            0.3655
+CSE-CIC-IDS2018       30                 flow + host            0.9699           0.0035         0.9920     0.9659            0.3655
+CSE-CIC-IDS2018       30 flow + neighbourhood + host            0.9714           0.0024         0.9921     0.9675            0.3655
+        ToN-IoT        1                        flow            0.6393           0.0623         0.9215     0.8257            0.2766
+        ToN-IoT        1                 flow + host            0.5373           0.0820         0.8559     0.7387            0.2766
+        ToN-IoT        1 flow + neighbourhood + host            0.5785           0.0889         0.8663     0.7347            0.2766
+        ToN-IoT        5                        flow            0.8245           0.0515         0.9583     0.8927            0.2929
+        ToN-IoT        5                 flow + host            0.7364           0.1467         0.9319     0.8871            0.2929
+        ToN-IoT        5 flow + neighbourhood + host            0.7702           0.1101         0.9313     0.8628            0.2929
+        ToN-IoT       30                        flow            0.7674           0.1191         0.9452     0.9012            0.3408
+        ToN-IoT       30                 flow + host            0.6863           0.2048         0.9011     0.8579            0.3408
+        ToN-IoT       30 flow + neighbourhood + host            0.6940           0.2063         0.9040     0.8262            0.3408
+
+Episodes per family by gap (minutes):
+ gap_min                                      1     5    30
+source          family                                    
+CSE-CIC-IDS2018 Bot                         5.0   1.0  1.0
+                Brute_Force_-Web          160.0  23.0  1.0
+                Brute_Force_-XSS           79.0  39.0  1.0
+                DDOS_attack-HOIC            1.0   1.0  1.0
+                DDOS_attack-LOIC-UDP        1.0   1.0  1.0
+                DDoS_attacks-LOIC-HTTP      8.0   4.0  2.0
+                DoS_attacks-GoldenEye       4.0   4.0  1.0
+                DoS_attacks-Hulk            1.0   1.0  1.0
+                DoS_attacks-SlowHTTPTest    1.0   1.0  1.0
+                DoS_attacks-Slowloris       1.0   1.0  1.0
+                FTP-BruteForce              1.0   1.0  1.0
+                Infilteration             314.0  12.0  2.0
+                SQL_Injection              69.0  16.0  2.0
+                SSH-Bruteforce              1.0   1.0  1.0
+ToN-IoT         Backdoor                  228.0   4.0  1.0
+                DDoS                       50.0   2.0  2.0
+                DoS                         3.0   1.0  1.0
+                injection                  21.0   3.0  2.0
+                mitm                       27.0   4.0  1.0
+                password                   37.0   2.0  1.0
+                ransomware                 22.0   3.0  2.0
+                scanning                   55.0  23.0  3.0
+                xss                         6.0   1.0  1.0
+
+Paired Wilcoxon tests vs flow-only:
+          source  gap_min              representation      metric  mean_diff  wins  seeds  wilcoxon_p
+CSE-CIC-IDS2018        1                 flow + host TPR@FPR1pct    -0.0004     6     10      1.0000
+CSE-CIC-IDS2018        1                 flow + host    PR_AUC_w     0.0151    10     10      0.0020
+CSE-CIC-IDS2018        1 flow + neighbourhood + host TPR@FPR1pct     0.0243    10     10      0.0020
+CSE-CIC-IDS2018        1 flow + neighbourhood + host    PR_AUC_w     0.0209    10     10      0.0020
+CSE-CIC-IDS2018        5                 flow + host TPR@FPR1pct     0.0486    10     10      0.0020
+CSE-CIC-IDS2018        5                 flow + host    PR_AUC_w     0.0306    10     10      0.0020
+CSE-CIC-IDS2018        5 flow + neighbourhood + host TPR@FPR1pct     0.0499    10     10      0.0020
+CSE-CIC-IDS2018        5 flow + neighbourhood + host    PR_AUC_w     0.0306    10     10      0.0020
+CSE-CIC-IDS2018       30                 flow + host TPR@FPR1pct     0.0265    10     10      0.0020
+CSE-CIC-IDS2018       30                 flow + host    PR_AUC_w     0.0234    10     10      0.0020
+CSE-CIC-IDS2018       30 flow + neighbourhood + host TPR@FPR1pct     0.0280    10     10      0.0020
+CSE-CIC-IDS2018       30 flow + neighbourhood + host    PR_AUC_w     0.0235    10     10      0.0020
+        ToN-IoT        1                 flow + host TPR@FPR1pct    -0.1020     1     10      0.0137
+        ToN-IoT        1                 flow + host    PR_AUC_w    -0.0656     1     10      0.0039
+        ToN-IoT        1 flow + neighbourhood + host TPR@FPR1pct    -0.0608     2     10      0.1055
+        ToN-IoT        1 flow + neighbourhood + host    PR_AUC_w    -0.0552     0     10      0.0020
+        ToN-IoT        5                 flow + host TPR@FPR1pct    -0.0881     2     10      0.0195
+        ToN-IoT        5                 flow + host    PR_AUC_w    -0.0263     1     10      0.0137
+        ToN-IoT        5 flow + neighbourhood + host TPR@FPR1pct    -0.0543     5     10      0.2754
+        ToN-IoT        5 flow + neighbourhood + host    PR_AUC_w    -0.0270     2     10      0.0098
+        ToN-IoT       30                 flow + host TPR@FPR1pct    -0.0811     3     10      0.0371
+        ToN-IoT       30                 flow + host    PR_AUC_w    -0.0441     0     10      0.0020
+        ToN-IoT       30 flow + neighbourhood + host TPR@FPR1pct    -0.0734     3     10      0.0840
+        ToN-IoT       30 flow + neighbourhood + host    PR_AUC_w    -0.0412     0     10      0.0020

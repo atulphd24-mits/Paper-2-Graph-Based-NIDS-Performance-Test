@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Effect of the split strategy (gradient boosting, 5 seeds). F1 is weighted to each source's real attack prevalence; TPR is the detection rate at 1\% FPR with the alert threshold set on validation benign traffic. \emph{Dup.} is the share of test flows whose exact behaviour vector occurs in training.}
+\label{tab:splits}
+\begin{tabular}{lcccc}
+\toprule
+Split & F1 (weighted) & TPR@1\%FPR & Dup.\ (\%) & TPR@1\%FPR, timestamp only \\
+\midrule
+\multicolumn{5}{l}{\textit{ToN-IoT}} \\
+\quad Random rows & 0.930 $\pm$ 0.001 & 0.822 $\pm$ 0.002 & 48.9 & 0.114 $\pm$ 0.006 \\
+\quad 10-min time blocks & 0.929 $\pm$ 0.012 & 0.694 $\pm$ 0.185 & 45.4 & 0.100 $\pm$ 0.056 \\
+\quad Attack episodes & 0.883 $\pm$ 0.045 & 0.767 $\pm$ 0.095 & 41.8 & 0.000 $\pm$ 0.000 \\
+\multicolumn{5}{l}{\textit{CSE-CIC-IDS2018}} \\
+\quad Random rows & 0.971 $\pm$ 0.001 & 0.954 $\pm$ 0.001 & 46.3 & 0.120 $\pm$ 0.023 \\
+\quad 10-min time blocks & 0.968 $\pm$ 0.006 & 0.950 $\pm$ 0.009 & 39.8 & 0.097 $\pm$ 0.191 \\
+\quad Attack episodes & 0.930 $\pm$ 0.032 & 0.953 $\pm$ 0.005 & 37.1 & 0.000 $\pm$ 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

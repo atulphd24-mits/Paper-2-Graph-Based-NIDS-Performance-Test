@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Family-gated detector against single feature sets and an unweighted expert ensemble (attack-episode split, 10 seeds). Bold: best per source.}
+\label{tab:gated}
+\begin{tabular}{lccc}
+\toprule
+Detector & TPR@1\%FPR & PR-AUC & F1 (weighted) \\
+\midrule
+\multicolumn{4}{l}{\textit{CSE-CIC-IDS2018}} \\
+\quad Flow only & 0.919 $\pm$ 0.048 & 0.958 & 0.921 \\
+\quad Flow + neighbourhood & 0.949 $\pm$ 0.010 & 0.971 & 0.965 \\
+\quad Flow + host & \textbf{0.967 $\pm$ 0.010} & 0.988 & 0.958 \\
+\quad Mean of the three experts & 0.946 $\pm$ 0.018 & 0.977 & 0.935 \\
+\quad Family-gated (ours) & 0.966 $\pm$ 0.006 & 0.986 & 0.947 \\
+\multicolumn{4}{l}{\textit{ToN-IoT}} \\
+\quad Flow only & 0.825 $\pm$ 0.051 & 0.958 & 0.893 \\
+\quad Flow + neighbourhood & 0.779 $\pm$ 0.114 & 0.954 & 0.895 \\
+\quad Flow + host & 0.736 $\pm$ 0.147 & 0.932 & 0.887 \\
+\quad Mean of the three experts & 0.814 $\pm$ 0.075 & 0.951 & 0.882 \\
+\quad Family-gated (ours) & \textbf{0.829 $\pm$ 0.057} & 0.951 & 0.895 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\linewidth}{\footnotesize Paired differences in TPR@1\%FPR for the gated detector: CSE-CIC-IDS2018 vs flow only: +0.047 (10/10 seeds, $p=0.002$); CSE-CIC-IDS2018 vs flow + host: -0.001 (1/10 seeds, $p=0.084$); CSE-CIC-IDS2018 vs expert mean: +0.020 (10/10 seeds, $p=0.002$); ToN-IoT vs flow only: +0.005 (6/10 seeds, $p=0.193$); ToN-IoT vs flow + host: +0.093 (9/10 seeds, $p=0.004$); ToN-IoT vs expert mean: +0.015 (6/10 seeds, $p=0.275$).}
+\end{table}

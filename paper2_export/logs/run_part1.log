@@ -1,0 +1,53 @@
+[     0s] Working sample (859697, 136), behaviour features: 47
+[     0s] PART 1 - shortcut features
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+/home/ccc/jupyter/SOC-Threat-Detection/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+
+Source identification from behaviour: balanced accuracy 0.9937 ± 0.0006
+
+Pooled detection (random split):
+                         F1          PR_AUC         ROC_AUC        
+                      mean     std    mean     std    mean     std
+Model                                                             
+behaviour features  0.9615  0.0009  0.9947  0.0002  0.9918  0.0003
+source prior only   0.7426  0.0000  0.6423  0.0000  0.5854  0.0000
+timestamp only      0.8480  0.0032  0.9172  0.0023  0.8940  0.0031
+
+Single features that best identify the source:
+                    feature  source_balanced_accuracy
+                  in_bytes                    0.7192
+            max_ip_pkt_len                    0.7178
+          longest_flow_pkt                    0.7178
+            tcp_win_max_in                    0.6934
+ src_to_dst_avg_throughput                    0.6508
+   dst_to_src_second_bytes                    0.6450
+                   min_ttl                    0.6385
+                   max_ttl                    0.6155
+flow_duration_milliseconds                    0.5939
+                  l7_proto                    0.5827

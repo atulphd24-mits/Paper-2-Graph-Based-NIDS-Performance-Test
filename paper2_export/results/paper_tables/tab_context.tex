@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{Detection rate at 1\% FPR with flow features and with graph-neighbourhood and host-behaviour context (attack-episode split, 10 seeds, mean $\pm$ std). Bold: best per row. $^{*}$\,$p<0.05$, $^{**}$\,$p<0.01$, paired Wilcoxon signed-rank test against flow features.}
+\label{tab:context}
+\begin{tabular}{lcccc}
+\toprule
+Model & Flow & + Neighbourhood & + Host & + Neigh.\ + host \\
+\midrule
+\multicolumn{5}{l}{\textit{CSE-CIC-IDS2018}} \\
+\quad Gradient boosting & 0.919 $\pm$ 0.048 & 0.949 $\pm$ 0.010 & 0.967 $\pm$ 0.010$^{**}$ & \textbf{0.969 $\pm$ 0.006}$^{**}$ \\
+\quad Random forest & 0.935 $\pm$ 0.038 & 0.950 $\pm$ 0.009 & \textbf{0.967 $\pm$ 0.007}$^{**}$ & 0.966 $\pm$ 0.007$^{**}$ \\
+\quad MLP & 0.944 $\pm$ 0.010 & 0.950 $\pm$ 0.009$^{**}$ & 0.962 $\pm$ 0.027 & \textbf{0.969 $\pm$ 0.006}$^{**}$ \\
+\multicolumn{5}{l}{\textit{ToN-IoT}} \\
+\quad Gradient boosting & \textbf{0.825 $\pm$ 0.051} & 0.779 $\pm$ 0.114 & 0.736 $\pm$ 0.147$^{*}$ & 0.770 $\pm$ 0.110 \\
+\quad Random forest & \textbf{0.800 $\pm$ 0.052} & 0.786 $\pm$ 0.077 & 0.764 $\pm$ 0.130 & 0.796 $\pm$ 0.108 \\
+\quad MLP & 0.761 $\pm$ 0.102 & \textbf{0.777 $\pm$ 0.128} & 0.738 $\pm$ 0.095 & 0.747 $\pm$ 0.097 \\
+\bottomrule
+\end{tabular}
+\end{table}

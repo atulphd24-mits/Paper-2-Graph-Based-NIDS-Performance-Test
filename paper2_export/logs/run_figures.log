@@ -1,0 +1,2 @@
+Figures: ['fig1_label_ambiguity.png', 'fig2_split_leakage.png', 'fig3_context_features.png', 'fig4_family_delta.png', 'fig5_context_by_model.png']
+Tables : ['table1_sources.tex', 'table2_shortcuts.tex', 'table3_splits.tex', 'table4_context_features.tex', 'table5_two_branch.tex', 'table6_split_inflation_by_model.tex', 'table7_context_by_model.tex', 'table8_egraphsage.tex', 'table9_gap_sensitivity.tex']

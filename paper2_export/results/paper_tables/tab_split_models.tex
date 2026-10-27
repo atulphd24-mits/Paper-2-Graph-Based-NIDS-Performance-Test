@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Weighted F1 under a random row split and an attack-episode split for four model families (gradient boosting, random forest and MLP: 5 seeds; E-GraphSAGE: 10 seeds). Inflation is the difference in F1 points.}
+\label{tab:split-models}
+\begin{tabular}{lccc}
+\toprule
+Model & Random rows & Attack episodes & Inflation (pts) \\
+\midrule
+\multicolumn{4}{l}{\textit{ToN-IoT}} \\
+\quad Gradient boosting & 0.930 $\pm$ 0.001 & 0.883 $\pm$ 0.045 & +4.7 \\
+\quad Random forest & 0.928 $\pm$ 0.001 & 0.877 $\pm$ 0.046 & +5.1 \\
+\quad MLP & 0.925 $\pm$ 0.001 & 0.879 $\pm$ 0.045 & +4.6 \\
+\quad E-GraphSAGE (IP:port) & 0.923 $\pm$ 0.002 & 0.889 $\pm$ 0.029 & +3.4 \\
+\multicolumn{4}{l}{\textit{CSE-CIC-IDS2018}} \\
+\quad Gradient boosting & 0.971 $\pm$ 0.001 & 0.930 $\pm$ 0.032 & +4.1 \\
+\quad Random forest & 0.970 $\pm$ 0.001 & 0.944 $\pm$ 0.028 & +2.6 \\
+\quad MLP & 0.970 $\pm$ 0.001 & 0.949 $\pm$ 0.027 & +2.1 \\
+\quad E-GraphSAGE (IP:port) & 0.967 $\pm$ 0.002 & 0.968 $\pm$ 0.005 & -0.1 \\
+\bottomrule
+\end{tabular}
+\end{table}

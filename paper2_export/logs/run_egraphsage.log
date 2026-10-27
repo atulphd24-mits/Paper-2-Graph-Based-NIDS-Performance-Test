@@ -1,0 +1,87 @@
+[     1s] ToN-IoT: 59,999 flows; nodes ip=512, ip_port=55,992, random=119,998
+[   794s] ToN-IoT: seed 0, random rows done
+[  1351s] ToN-IoT: seed 0, attack episodes done
+[  2143s] ToN-IoT: seed 1, random rows done
+[  2820s] ToN-IoT: seed 1, attack episodes done
+[  3648s] ToN-IoT: seed 2, random rows done
+[  4004s] ToN-IoT: seed 2, attack episodes done
+[  4755s] ToN-IoT: seed 3, random rows done
+[  5326s] ToN-IoT: seed 3, attack episodes done
+[  6071s] ToN-IoT: seed 4, random rows done
+[  6447s] ToN-IoT: seed 4, attack episodes done
+[  7295s] ToN-IoT: seed 5, random rows done
+[  7711s] ToN-IoT: seed 5, attack episodes done
+[  8509s] ToN-IoT: seed 6, random rows done
+[  9198s] ToN-IoT: seed 6, attack episodes done
+[  9936s] ToN-IoT: seed 7, random rows done
+[ 10206s] ToN-IoT: seed 7, attack episodes done
+[ 11000s] ToN-IoT: seed 8, random rows done
+[ 11281s] ToN-IoT: seed 8, attack episodes done
+[ 12015s] ToN-IoT: seed 9, random rows done
+[ 12211s] ToN-IoT: seed 9, attack episodes done
+[ 12302s] CSE-CIC-IDS2018: 60,002 flows; nodes ip=4,271, ip_port=57,996, random=120,004
+[ 13189s] CSE-CIC-IDS2018: seed 0, random rows done
+[ 13940s] CSE-CIC-IDS2018: seed 0, attack episodes done
+[ 14810s] CSE-CIC-IDS2018: seed 1, random rows done
+[ 15580s] CSE-CIC-IDS2018: seed 1, attack episodes done
+[ 16487s] CSE-CIC-IDS2018: seed 2, random rows done
+[ 17154s] CSE-CIC-IDS2018: seed 2, attack episodes done
+[ 18034s] CSE-CIC-IDS2018: seed 3, random rows done
+[ 18824s] CSE-CIC-IDS2018: seed 3, attack episodes done
+[ 19603s] CSE-CIC-IDS2018: seed 4, random rows done
+[ 20420s] CSE-CIC-IDS2018: seed 4, attack episodes done
+[ 21351s] CSE-CIC-IDS2018: seed 5, random rows done
+[ 22218s] CSE-CIC-IDS2018: seed 5, attack episodes done
+[ 23097s] CSE-CIC-IDS2018: seed 6, random rows done
+[ 23959s] CSE-CIC-IDS2018: seed 6, attack episodes done
+[ 24756s] CSE-CIC-IDS2018: seed 7, random rows done
+[ 25496s] CSE-CIC-IDS2018: seed 7, attack episodes done
+[ 26385s] CSE-CIC-IDS2018: seed 8, random rows done
+[ 27074s] CSE-CIC-IDS2018: seed 8, attack episodes done
+[ 27876s] CSE-CIC-IDS2018: seed 9, random rows done
+[ 28622s] CSE-CIC-IDS2018: seed 9, attack episodes done
+
+          source           split                   model  TPR@FPR1pct_mean  TPR@FPR1pct_std  PR_AUC_w_mean  F1_w_mean  F1_w_std
+CSE-CIC-IDS2018 attack episodes        E-GraphSAGE (ip)            0.9654           0.0098         0.9942     0.9618    0.0063
+CSE-CIC-IDS2018 attack episodes   E-GraphSAGE (ip_port)            0.9546           0.0087         0.9740     0.9680    0.0054
+CSE-CIC-IDS2018 attack episodes    E-GraphSAGE (random)            0.9354           0.0196         0.9613     0.9300    0.0275
+CSE-CIC-IDS2018 attack episodes HistGB (flow, no graph)            0.9187           0.0480         0.9577     0.9210    0.0270
+CSE-CIC-IDS2018     random rows        E-GraphSAGE (ip)            0.9635           0.0063         0.9945     0.9679    0.0016
+CSE-CIC-IDS2018     random rows   E-GraphSAGE (ip_port)            0.9535           0.0015         0.9736     0.9670    0.0017
+CSE-CIC-IDS2018     random rows    E-GraphSAGE (random)            0.9508           0.0011         0.9713     0.9680    0.0020
+CSE-CIC-IDS2018     random rows HistGB (flow, no graph)            0.9521           0.0013         0.9737     0.9691    0.0016
+        ToN-IoT attack episodes        E-GraphSAGE (ip)            0.6226           0.2028         0.8770     0.7674    0.0862
+        ToN-IoT attack episodes   E-GraphSAGE (ip_port)            0.7189           0.0982         0.9400     0.8886    0.0292
+        ToN-IoT attack episodes    E-GraphSAGE (random)            0.6958           0.1179         0.9402     0.8791    0.0340
+        ToN-IoT attack episodes HistGB (flow, no graph)            0.8245           0.0515         0.9583     0.8927    0.0362
+        ToN-IoT     random rows        E-GraphSAGE (ip)            0.5866           0.0074         0.9134     0.8255    0.0037
+        ToN-IoT     random rows   E-GraphSAGE (ip_port)            0.7491           0.0374         0.9728     0.9228    0.0017
+        ToN-IoT     random rows    E-GraphSAGE (random)            0.7955           0.0190         0.9749     0.9242    0.0014
+        ToN-IoT     random rows HistGB (flow, no graph)            0.8158           0.0249         0.9775     0.9289    0.0015
+
+Paired Wilcoxon tests vs HistGB flow-only:
+          source           split                 model      metric  mean_diff  wins  seeds  wilcoxon_p
+CSE-CIC-IDS2018 attack episodes      E-GraphSAGE (ip) TPR@FPR1pct     0.0467    10     10      0.0020
+CSE-CIC-IDS2018 attack episodes      E-GraphSAGE (ip)    PR_AUC_w     0.0366    10     10      0.0020
+CSE-CIC-IDS2018 attack episodes E-GraphSAGE (ip_port) TPR@FPR1pct     0.0359    10     10      0.0020
+CSE-CIC-IDS2018 attack episodes E-GraphSAGE (ip_port)    PR_AUC_w     0.0164    10     10      0.0020
+CSE-CIC-IDS2018 attack episodes  E-GraphSAGE (random) TPR@FPR1pct     0.0168     4     10      1.0000
+CSE-CIC-IDS2018 attack episodes  E-GraphSAGE (random)    PR_AUC_w     0.0037     4     10      0.8457
+CSE-CIC-IDS2018     random rows      E-GraphSAGE (ip) TPR@FPR1pct     0.0114    10     10      0.0020
+CSE-CIC-IDS2018     random rows      E-GraphSAGE (ip)    PR_AUC_w     0.0208    10     10      0.0020
+CSE-CIC-IDS2018     random rows E-GraphSAGE (ip_port) TPR@FPR1pct     0.0014     9     10      0.0039
+CSE-CIC-IDS2018     random rows E-GraphSAGE (ip_port)    PR_AUC_w    -0.0002     5     10      0.8457
+CSE-CIC-IDS2018     random rows  E-GraphSAGE (random) TPR@FPR1pct    -0.0013     1     10      0.0098
+CSE-CIC-IDS2018     random rows  E-GraphSAGE (random)    PR_AUC_w    -0.0024     0     10      0.0020
+        ToN-IoT attack episodes      E-GraphSAGE (ip) TPR@FPR1pct    -0.2019     0     10      0.0020
+        ToN-IoT attack episodes      E-GraphSAGE (ip)    PR_AUC_w    -0.0812     0     10      0.0020
+        ToN-IoT attack episodes E-GraphSAGE (ip_port) TPR@FPR1pct    -0.1056     1     10      0.0039
+        ToN-IoT attack episodes E-GraphSAGE (ip_port)    PR_AUC_w    -0.0183     1     10      0.0195
+        ToN-IoT attack episodes  E-GraphSAGE (random) TPR@FPR1pct    -0.1287     1     10      0.0059
+        ToN-IoT attack episodes  E-GraphSAGE (random)    PR_AUC_w    -0.0180     2     10      0.0488
+        ToN-IoT     random rows      E-GraphSAGE (ip) TPR@FPR1pct    -0.2292     0     10      0.0020
+        ToN-IoT     random rows      E-GraphSAGE (ip)    PR_AUC_w    -0.0641     0     10      0.0020
+        ToN-IoT     random rows E-GraphSAGE (ip_port) TPR@FPR1pct    -0.0667     0     10      0.0020
+        ToN-IoT     random rows E-GraphSAGE (ip_port)    PR_AUC_w    -0.0047     0     10      0.0020
+        ToN-IoT     random rows  E-GraphSAGE (random) TPR@FPR1pct    -0.0203     2     10      0.0488
+        ToN-IoT     random rows  E-GraphSAGE (random)    PR_AUC_w    -0.0026     0     10      0.0020

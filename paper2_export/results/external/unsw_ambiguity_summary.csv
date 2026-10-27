@@ -1,0 +1,2 @@
+dataset,rows,attack_share,distinct_vectors,irreducible_error,attack_flows_in_ambiguous_vectors,duplicate_rows
+unsw,2540047,0.12648702957071267,2016173,0.00028267193481065506,0.0028230563086126563,0.20624578994010745

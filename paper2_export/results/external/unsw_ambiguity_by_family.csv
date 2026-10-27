@@ -1,0 +1,10 @@
+attack,flows,distinct_vectors,share_identical_to_benign
+Generic,215481,18830,4.640780393630993e-06
+Exploits,44525,27434,0.0
+Fuzzers,24246,20960,0.03716076878660397
+DoS,16353,5500,0.0
+Reconnaissance,13987,9991,0.0
+Analysis,2677,2032,0.0
+Backdoor,2329,1880,0.0
+Shellcode,1511,1456,0.0033090668431502318
+Worms,174,171,0.0
