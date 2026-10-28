@@ -1,8 +1,11 @@
-# --- files over GitHub's 100 MB limit (kept locally, not pushed) -----
+# --- Large files: keep locally, do not push to GitHub ---
 *.parquet
 *.zip
 
-# --- environments and caches -----------------------------------------
+# --- Generated outputs ---
+outputs/
+
+# --- Environments and caches ---
 .venv/
 venv/
 __pycache__/
