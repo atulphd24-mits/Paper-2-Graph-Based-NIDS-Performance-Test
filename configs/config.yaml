@@ -1,0 +1,35 @@
+project:
+  name: SOC-Threat-Detection
+  version: 1.0
+
+datasets:
+  cic_iot:
+    path: data/raw/CIC-IoT2023
+    label: label
+
+  iot23:
+    path: data/raw/IoT-23
+    label: label
+
+  ton_iot:
+    path: data/raw/TON-IoT
+    label: label
+
+  unsw_nb15_raw:
+    path: data/raw/UNSW-NB15-full
+    label: label
+
+  bigflow:
+    path: data/raw/BigFlow-NIDS-V2-Merged-Parquet
+    label: label
+
+output:
+  processed: data/processed
+  reports: outputs/reports
+  figures: outputs/figures
+  models: outputs/models
+
+preprocessing:
+  remove_duplicates: true
+  remove_constant_features: true
+  normalize: false
